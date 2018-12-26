@@ -1,0 +1,218 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial;
+	font-size: 12px;
+	color: #000000;
+	background: #999999 url(images/templatemo_bg.gif);
+}
+a:link, a:visited { color: #0066CC; text-decoration: underline ;transition: all 0.5s;} 
+a:active, a:hover { color: orange; text-decoration: none; font-size: 14px;}
+
+#templatemo_container_wrapper {
+	background: url(images/templatemo_side_bg.gif) repeat-x;
+}
+#templatemo_container {
+	width: 810px;
+	margin: 0px auto;
+	background: url(images/templatemo_content_bg.gif);
+}
+#templatemo_top {
+	clear: left;
+	height: 25px;	/* 'padding-top' + 'height' must be equal to the 'background image height' */
+	padding-top: 42px;
+	padding-left: 30px;
+	background: url(images/templatemo_top_bg.gif) no-repeat bottom;
+}
+#templatemo_header {
+	clear: left;
+	height: 179px;
+	text-align: center;
+	background: url(images/templatemo_header_bg.gif) no-repeat;
+}
+#inner_header {
+	height: 160px;
+	background: url(images/templatemo_header.jpg) no-repeat center center;
+}
+#templatemo_left_column {
+	clear: left;
+	float: left;
+	width: 100%px;
+	padding-left: 20px;
+}
+#templatemo_right_column {
+	float: right;
+	width: 216px;
+	padding-right: 15px;
+}
+#templatemo_footer {
+	clear: both;
+	padding-top: 18px;
+	height: 37px;
+	text-align: center;
+	font-size: 11px;
+	background: url(images/templatemo_footer_bg.gif) no-repeat;
+	color: #666666;
+}
+#templatemo_footer a {
+	color: #666666;
+}
+#templatemo_site_title {
+	padding-top: 65px;
+	font-weight: bold;
+	font-size: 32px;
+	color: #FFFFFF;
+}
+#templatemo_site_slogan {
+	padding-top: 14px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #AAFFFF;
+}
+.templatemo_spacer {
+	clear: left;
+	height: 18px;
+}
+.templatemo_pic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #000000;
+}
+.section_box {
+	margin: 10px;
+	padding: 10px;
+	border: 1px dashed #CCCCCC;
+	background: #F2F2F2;
+}
+.section_box2 {
+	clear: left;
+	margin-top: 10px;
+	background: #F6F6F6;
+	color: #000000;
+}
+.text_area {
+	padding: 10px;
+}
+.publish_date {
+	clear: both;
+	margin-top: 10px;
+	color: #999999;
+	font-size: 11px;
+	font-weight: bold;
+}
+.title {
+	padding-bottom: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0066CC;
+}
+.subtitle {
+	padding-bottom: 6px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+}
+.post_title {
+	padding: 6px;
+	padding-left: 10px;
+	background: #DDEEFF;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0066CC;
+}
+.templatemo_menu {
+	list-style-type: none;
+	margin: 10px;
+	margin-top: 0px;
+	padding: 0px;
+	width: 195px;
+}
+.templatemo_menu li a{
+	background: #F4F4F4 url(images/button_default.gif) no-repeat;
+	font-size: 13px;
+	font-weight: bold;
+	color: #0066CC;
+	display: block;
+	width: auto;
+	margin-bottom: 2px;
+	padding: 5px;
+	padding-left: 12px;
+	text-decoration: none;
+}
+* html .templatemo_menu li a{ 
+	width: 190px;
+}
+.templatemo_menu li a:visited, .templatemo_menu li a:active{
+	color: #0066CC;
+}
+.templatemo_menu li a:hover{
+	background: #EEEEEE url(images/button_active.gif) no-repeat;
+	color: #FF3333;
+}
+
+
+   .datagrid table { border-collapse: collapse; text-align: left; width: 770px; } 
+   .datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #006699; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+   .datagrid table td, .datagrid table th { padding: 5px 5px; }
+   .datagrid table thead th {width: 200px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #0070A8; }
+    .datagrid table thead th:first-child { border: none; }
+    .datagrid table tbody td { color: #00496B; border-left: 1px solid #E1EEF4; font-weight: bold; font-size: 13px; }
+    .datagrid table tbody .alt td { background: #E1EEF4; color: #00496B; }
+    .datagrid table tbody td:first-child { border-left: none; }
+    .datagrid table tbody tr:last-child td { border-bottom: none; }
+    .datagrid table tfoot td div { border-top: 1px solid #006699;background: #E1EEF4;}
+     .datagrid table tfoot td { padding: 0; font-size: 12px }
+      .datagrid table tfoot td div{ padding: 2px; }
+      .datagrid table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }
+   .datagrid table tfoot  li { display: inline; }
+   .datagrid table tfoot li a
+    {transition :all 0.8s; text-decoration: none; display: inline-block;  padding: 2px 8px; margin: 1px;color: #FFFFFF;border: 1px solid #006699;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; }
+   .datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover 
+   {
+    text-decoration: none;
+    border-color: #006699;
+    color: orange;
+    font-size: 16px;
+    text-decoration: none ;
+    background: none;
+    background-color:#00557F;}
+   div.dhtmlx_window_active, div.dhx_modal_cover_dv 
+   { position: fixed !important; }
+
+   input[type="text"] {
+    width: 250px;
+	padding: 0px 5px;
+	border: 1px solid green;
+	border-radius: 8px;
+	height: 25px;
+	font-weight: bold;
+	 transition:all 0.8s;
+}
+input[type="text"]:hover {
+	border: 2px solid blue;
+	border-radius: 10px;
+	
+}
+
+input[type=submit] {
+    border-radius: 8px;
+    border: 1px solid green;
+    width: 80px;
+    height:28px;
+    background-color: white;
+    font-weight: bold;
+    color: blue;
+    transition:all 0.8s;
+    font-size: 14px;
+}
+input[type=submit]:hover{
+   border-radius: 10px;
+    border: 2px solid green;
+    background-color: orange;
+    color: white;
+}
